@@ -1,0 +1,29 @@
+{
+  "Variable 1":
+    {
+      "allcodes": true,
+      "table": "Index",
+      "multRecords": false,
+      "displayName": "Full name of Variable 1",
+      "dateName": "visit_d",
+      "dateWord": "visit"
+    },
+  "AIDS_Y":{
+    "codes": [
+      "Yes"
+    ],
+    "table": "tblBAS",
+    "multRecords": false,
+    "displayName": "AIDS diagnosis ever made",
+    "dateName": "AIDS_D",
+    "dateWord": "AIDS diagnosis"
+  },  
+  "CD4_V":{
+    "codes": null,
+    "table": "tblLAB_CD4",
+    "multRecords": true,
+    "displayName": "CD4 measurement",
+    "dateName": "CD4_D",
+    "dateWord": "CD4 observation"
+  }
+}
